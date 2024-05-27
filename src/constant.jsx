@@ -1,0 +1,12 @@
+import countriesData from "./data/data.json";
+
+export const SET_NAMESCOUNTRIES_FILTER = "SET_NAMESCOUNTRIES_FILTER";
+export const SET_REGIONCOUNTRIES_FILTER = "SET_REGIONCOUNTRIES_FILTER";
+export const FILTER_COUNTRIES = "FILTER_COUNTRIES";
+export const SET_LIGHT_THEME = "SET_LIGHT_THEME";
+export const SET_DARK_THEME = "SET_DARK_THEME";
+export const SET_VISIBLE_COUNTRIES = "SET_VISIBLE_COUNTRIES";
+export const LOAD_MORE_COUNTRIES = "LOAD_MORE_COUNTRIES";
+export const THEME_LIGHT = "THEME_LIGHT";
+export const THEME_DARK = "THEME_DARK";
+export const COUNTRIES_DATA = countriesData;
